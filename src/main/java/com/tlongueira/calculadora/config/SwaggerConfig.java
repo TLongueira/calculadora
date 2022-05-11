@@ -33,7 +33,7 @@ public Docket api() {
 		return new ApiInfoBuilder()
 				.title("Calculadora API")
 				.description("API REST para realizar calculos matematicos")
-				.termsOfServiceUrl("httt://www.google.com")
+				.termsOfServiceUrl("http://en.wikipedia.org/wiki/Terms_of_service") //
 				.contact(new Contact("Tiago Longueira","http://tlongueira.com","tiagolongueira@gmail.com"))
 				.license("Apache License Version 2.0").licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html") //
 				.version("2.0") //

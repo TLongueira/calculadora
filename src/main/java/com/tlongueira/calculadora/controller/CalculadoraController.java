@@ -15,7 +15,7 @@ import com.tlongueira.calculadora.entity.ResultadoOperacion;
 import com.tlongueira.calculadora.service.CalculadoraService;
 
 @RestController
-@RequestMapping("/api/calculadora")
+@RequestMapping("/calculadora")
 public class CalculadoraController {
 	
 	@Autowired
